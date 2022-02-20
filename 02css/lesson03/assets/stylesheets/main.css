@@ -22,6 +22,7 @@ h1 {
   background-color: orange;
 }
 
+/* Multi classes are an option too */
 /* A class=btn applies font size 25 to both anchor a elements */
 .btn {
   font-size: 25px;

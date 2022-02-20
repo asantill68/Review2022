@@ -28,9 +28,14 @@ open link in new window use the target attribute value = \_blank
 
 lesson03
 CSS (cascading style sheets):
-list of selectors:values is the cascase
+list of selectors:values is the cascade
 selecor values are rendered from top to bottom
 i.e. whatever color bkg is selected last for the same selector will overwrite other values
-selector specificity: ID > Class > Type
+selector specificity: ID > Class > Type; use (1, 0, 0) to calculate preference
 selectors can be combined i.e. .class p to combine the class and p element
 selectors can also be .class p.class2 using two classes and a p element
+multi-classes are also an option
+common CS property values
+format: selector {keyword: values}
+color: name black; hex values #000000; RGB rgb(0, 0, 0); HSL hsl(0, 0%, 0%)
+lenghth (width): absolute values (px, 1/96"); relative values (percentages, %; em, based on fontsize)
