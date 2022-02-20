@@ -1,0 +1,38 @@
+/* Cascading selectors are red from top to bottom */
+/* The last value will overwrite other values */
+h1 {
+  background-color: red;
+}
+h1 {
+  background-color: blue;
+}
+
+/* A p element in a div with class=general gives one background  */
+/* the p is the key selector */
+/* key selectors identifies which element the styles will be applied to */
+/* all other selectors in addition to the key are prequalifiers */
+.general p {
+  background-color: yellow;
+}
+
+/* Within this same div a second class=specific selector allows for a differnt backgrond color */
+/* specific is the key selector */
+/* no space between p and specific selectors means style will only apply to p.specific elements */
+.general p.specific {
+  background-color: orange;
+}
+
+/* A class=btn applies font size 25 to both anchor a elements */
+.btn {
+  font-size: 25px;
+}
+
+/* A class=btn-danger applies a red background */
+.btn-danger {
+  background-color: red;
+}
+
+/* A class=btn-success applies a green background */
+.btn-success {
+  background-color: green;
+}

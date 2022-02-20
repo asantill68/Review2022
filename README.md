@@ -7,13 +7,13 @@ Lesson01:
 HTML, Tags, CSS, CSS Reset, Selectors (element, class, id)
 
 Lesson02:  
-Semantics - element gives content on the page meaning and structure;
+semantics - element gives content on the page meaning and structure;
 div and span 's do not hold any semantic value; they are containgers for CSS
 div is a block while span is more for inline content
-Block Elements start a new line
-InLine Elements do not
-Text-based Elements: H1 to H6, p, strong, bold b, emphasis em and italics i elements
-Structure based elements (block): header, nav, article, section, aside and footer
+block Elements start a new line
+inLine Elements do not
+text-based Elements: H1 to H6, p, strong, bold b, emphasis em and italics i elements
+structure based elements (block): header, nav, article, section, aside and footer
 header outlines the heading of a segment or page and is not to be used as an h element
 nav is for navigation links on a page to other pages or sections of the website
 article is to identify a section of independent, self-contained content
@@ -27,3 +27,10 @@ linking to an email see lesson02/index.html
 open link in new window use the target attribute value = \_blank
 
 lesson03
+CSS (cascading style sheets):
+list of selectors:values is the cascase
+selecor values are rendered from top to bottom
+i.e. whatever color bkg is selected last for the same selector will overwrite other values
+selector specificity: ID > Class > Type
+selectors can be combined i.e. .class p to combine the class and p element
+selectors can also be .class p.class2 using two classes and a p element
