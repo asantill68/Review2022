@@ -39,3 +39,17 @@ common CS property values
 format: selector {keyword: values}
 color: name black; hex values #000000; RGB rgb(0, 0, 0); HSL hsl(0, 0%, 0%)
 lenghth (width): absolute values (px, 1/96"); relative values (percentages, %; em, based on fontsize)
+
+lesson04
+box model
+elements are displayed as block, inline or inline-block
+element values can be altered via css
+inline elements will not accetp width and height properties
+block and inline-block will accept width and height properties
+oddity with margin property is that the top and bottom is not accepted with inline elements
+vertical margins are accepted with block elements
+padding is within the element's borders
+margin values margin: 20px (all); margin: 20px 10px (top/bottom and left/right); margin: 10px 20px 0px 5px (top, right, bottom, left)
+boder: width style color i.e. border: 6px solid red
+border radius
+box-sizing content-box padding-box border-box

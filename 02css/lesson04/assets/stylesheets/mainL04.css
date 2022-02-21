@@ -1,0 +1,23 @@
+* {
+  border: 2px solid red;
+}
+
+p {
+  display: inline-block;
+}
+
+p.hidden {
+  display: none;
+}
+
+p.yellow {
+  background-color: yellow;
+}
+
+h1.boxmodel {
+    border: 6px solid #949599;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+}
