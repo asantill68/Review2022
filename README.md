@@ -53,3 +53,8 @@ margin values margin: 20px (all); margin: 20px 10px (top/bottom and left/right);
 boder: width style color i.e. border: 6px solid red
 border radius
 box-sizing content-box padding-box border-box
+
+lesson05
+Positioning Content
+floats, left right
+clear both
