@@ -150,7 +150,7 @@ table {
   margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
-  width: 900px;
+  width: 960px;
 }
 /* =====================================================================================================
       Typography
@@ -159,6 +159,7 @@ table {
 /* Create some vertical spacing between elements */
 h1,
 h3,
+h4,
 h5,
 p {
   margin-bottom: 22px;
@@ -188,5 +189,5 @@ p {
 */
 
 .hero {
-  padding: 22px 80px 66px 80px;
+  padding: 22px 80px 66px 160px;
 }
