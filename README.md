@@ -58,3 +58,18 @@ lesson05
 Positioning Content
 floats, left right
 clear both
+
+lesson06
+Typography
+Typface is music; Font is the mpg/cd
+color: #555;
+font-family: "Helvetica Neue", Helvetica, Ariel, sans-serif; (two-word font should be in " ")
+font-size: 14px;
+font-style: italic; also normal, oblique and inherit
+font-vaiant: small-caps;
+font-weight: bold; bolder, lighter, (also 100 - 900 with 400 being normal)
+line-height: 22px; usually set to 1.5 the font-size or 150%;
+line-height: 22px; and height: 22px; vertically centers text within an element
+shorthand lists; font: font-style, font-vaiant, font-weight, font-size, line-height, font-family
+example; font: italic small-caps bold 14px/22px "Helvetica Neue", Helvetica, Ariel, sans-serif;
+pseudo-class of hover is used in the a element a:hover
