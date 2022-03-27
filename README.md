@@ -82,4 +82,7 @@ box-shadow works similar but for elements
 text-transform: none; capitalize, uppercase, lowercase
 Letter Spacing: -0.5em; +/- values accepted; use relative values em, %
 word-spacing: 0.25em; see above
-
+Add fonts using googlefonts.com
+cite elemnet used for creative works
+q element is used for quotes
+blockquote element for large quotes
