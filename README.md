@@ -73,3 +73,13 @@ line-height: 22px; and height: 22px; vertically centers text within an element
 shorthand lists; font: font-style, font-vaiant, font-weight, font-size, line-height, font-family
 example; font: italic small-caps bold 14px/22px "Helvetica Neue", Helvetica, Ariel, sans-serif;
 pseudo-class of hover is used in the a element a:hover
+Text Properties
+text-align: center; left, right, justify
+text-decoration: underline; oveline, line-through
+text-indent: 20kpx; +/- values accepted
+text-shadow: 3px 6px 2px rgba(0, 0, 0, .3)
+box-shadow works similar but for elements
+text-transform: none; capitalize, uppercase, lowercase
+Letter Spacing: -0.5em; +/- values accepted; use relative values em, %
+word-spacing: 0.25em; see above
+
