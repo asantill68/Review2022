@@ -86,3 +86,14 @@ Add fonts using googlefonts.com
 cite elemnet used for creative works
 q element is used for quotes
 blockquote element for large quotes
+
+lesson07
+Backgrounds & Gradients
+background-color: #b2b2b2;
+use back up by setting two background-color: #b2b2b3; background-color: rbga(0, 0, 0, .3);
+browser reads second value last and applies it
+background-image: url("alert.png");
+background-repeat: no-repeat; repeat, repeat-x, repeat-y
+background-position: 20px 10 px; horizontal and vertical offset
+shorthand: background: #b2b2b2 url("alert.png") 20px 10px no-repeat or
+backgound-color, -image, -position, -repeat
