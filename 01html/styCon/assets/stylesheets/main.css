@@ -227,11 +227,18 @@ body {
 */
 /* Create some vertical spacing between elements */
 h1,
+h2,
+h3,
+h4 {
+  color: #648880;
+}
+
+h1,
 h3,
 h4,
+h5,
 p {
   margin-bottom: 22px;
-  color: #648880;
 }
 
 h1 {
@@ -273,6 +280,19 @@ em {
    ====================================================================================================
 */
 
+a {
+  color: #648880;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a9b2b9;
+}
+
+p a {
+  border-bottom: 1px solid #dfe2e5;
+}
+
 .primary-header a,
 .primary-footer a {
   color: #fff;
@@ -282,10 +302,6 @@ em {
 .primary-header a:hover,
 .primary-footer a:hover {
   color: #648880;
-}
-
-p a {
-  border-bottom: 1px solid #dfe2e5;
 }
 
 /* =====================================================================================================
