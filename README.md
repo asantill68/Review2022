@@ -97,3 +97,7 @@ background-repeat: no-repeat; repeat, repeat-x, repeat-y
 background-position: 20px 10 px; horizontal and vertical offset
 shorthand: background: #b2b2b2 url("alert.png") 20px 10px no-repeat or
 backgound-color, -image, -position, -repeat
+gradiant background in linear and radial forms
+a backup color is set followed by a linear-gradiant composed of two colors
+background: red; background: linear-gradiant(red, green)
+use direction: to botom right; or 90deg;

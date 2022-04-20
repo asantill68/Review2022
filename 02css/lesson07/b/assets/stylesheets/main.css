@@ -1,0 +1,36 @@
+body {
+  margin: 2px;
+}
+h2 {
+  text-align: center;
+  color: red;
+  margin: 2px;
+}
+
+.grad {
+  background: grey;
+  background: linear-gradient(red, yellow);
+  height: 200px;
+  border-radius: 5px;
+}
+
+.gradA {
+  background: yellow;
+  background: linear-gradient(to right bottom, red, yellow);
+  height: 200px;
+  border-radius: 5px;
+}
+
+.gradB {
+  background: yellow;
+  background: linear-gradient(90deg, red, yellow);
+  height: 200px;
+  border-radius: 5px;
+}
+
+.gradC {
+  background: yellow;
+  background: linear-gradient(270deg, red, yellow);
+  height: 200px;
+  border-radius: 5px;
+}
