@@ -1,7 +1,9 @@
 .container {
   width: 1100px;
+  height: 200px;
   margin-left: auto;
   margin-right: auto;
+  border: solid red 1px;
 }
 
 .notice-success {
@@ -13,4 +15,9 @@
   color: #fff;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 15px 20px 15px 50px;
+}
+
+.imgRep {
+  background-image: url("https://seeklogo.com/images/R/rush-logo-CF72AF3770-seeklogo.com.png");
+  padding: 80px;
 }
