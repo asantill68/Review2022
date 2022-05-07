@@ -101,3 +101,4 @@ gradiant background in linear and radial forms
 a backup color is set followed by a linear-gradiant composed of two colors
 background: red; background: linear-gradiant(red, green)
 use direction: to botom right; or 90deg;
+background: red; background: radial-gradian(red, yellow)

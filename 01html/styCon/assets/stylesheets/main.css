@@ -296,7 +296,7 @@ p a {
 .primary-header a,
 .primary-footer a {
   color: #fff;
-  text-decoration: none;
+  /* text-decoration: none; */
 }
 
 .primary-header a:hover,

@@ -34,3 +34,10 @@ h2 {
   height: 200px;
   border-radius: 5px;
 }
+
+.rad-grad {
+  background: yellow;
+  background: radial-gradient(yellow, red);
+  height: 200px;
+  border-radius: 5px;
+}
